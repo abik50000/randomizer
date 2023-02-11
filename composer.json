@@ -1,0 +1,16 @@
+{
+    "name": "testo/numbersapi",
+    "description": "Api for numbers",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "app/"
+        ]
+    },
+    "require": {
+        "symfony/routing": "^4.4",
+        "symfony/http-foundation": "^4.4"
+    }
+}
